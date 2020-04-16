@@ -25,7 +25,7 @@ function getTotal(arrNumber) {
   }
 
   if (arrNumber.length === 0) {
-    return "";
+    return "''";
   } else {
     return `angka paling besar adalah ${terbesar}, dan jumlah kemunculan sebanyak ${count} kali`;
   }
